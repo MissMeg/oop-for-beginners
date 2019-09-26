@@ -160,7 +160,7 @@ print(jethro.age)
 
 #### Quiz Time #1
 
-Post your answers to this quiz as comments on [this issue](https://github.com/MissMeg/oop-practice/issues/1) and I will check them out! *If you need to play around with some code first, check out the practice_1.py file for the code used here in the examples that you can run in your own IDE to practice and play around with.*
+Post your answers to this quiz as comments on [this issue](https://github.com/MissMeg/oop-practice/issues/1) and I will check them out! *If you need to play around with some code first, check out the [practice_1.py file](https://github.com/MissMeg/oop-practice/blob/master/practice_files/practice_1.py) for the code used here in the examples that you can run in your own IDE to practice and play around with.*
 
 1) What is a class?
 2) What is an instance?
@@ -277,7 +277,7 @@ print(jethro)
 
 #### Quiz Time #2
 
-Post your answers to this quiz as comments on [this issue](https://github.com/MissMeg/oop-practice/issues/1) and I will check them out! *If you need to play around with some code first, check out the practice_2.py file for the code used here in the examples that you can run in your own IDE to practice and play around with.*
+Post your answers to this quiz as comments on [this issue](https://github.com/MissMeg/oop-practice/issues/2) and I will check them out! *If you need to play around with some code first, check out the [practice_2.py file](https://github.com/MissMeg/oop-practice/blob/master/practice_files/practice_2.py) for the code used here in the examples that you can run in your own IDE to practice and play around with.*
 
 1) What is a method?
 2) Add two methods to the class you created previously. The first shouldn't need any arguments (like `.sing()`) and the second should take at least 1 argument (like `.fetch("ball")`).
