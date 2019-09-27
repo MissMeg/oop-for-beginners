@@ -272,7 +272,7 @@ print(jethro)
 ```
 
 ***
-**Tip:** *Don't worry about trying to memorize all of the dunder methods out there because there are a lot! This is an area developers typically go to the docs to check for the dunder method they need.*
+**Tip:** *Don't worry about trying to memorize all of the dunder methods out there because there are a lot! This is an area developers typically go to the docs to check for the dunder method they need. We will go more into the dunder methods in the intermediate OOP guide.*
 ***
 
 #### Quiz Time #2
