@@ -6,9 +6,9 @@ This repo is both a small guide to learn object oriented programming with Python
 
 This guide is broken up into multiple sections:
 
-- [Beginner_OOP]() - This is a great place to start if you have no knowledge of OOP. This will start at the beginning and go through some simple examples. You will need to know the basics of Python.
+- [Beginner_OOP](https://github.com/MissMeg/oop-practice/tree/master/Beginner_OOP) - This is a great place to start if you have no knowledge of OOP. This will start at the beginning and go through some simple examples. You will need to know the basics of Python.
 - [Intermediate_OOP]() - (coming soon) This is a great place to go if you already have some OOP knowledge and want to dive into some more complicated examples.
-- [Practice_files]() - These are python files you can use to run the examples from the guides on your own system.
+- [Practice_files](https://github.com/MissMeg/oop-practice/tree/master/practice_files) - These are python files you can use to run the examples from the guides on your own system.
 
 ## Requests to Add or Update Content
 
