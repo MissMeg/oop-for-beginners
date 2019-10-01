@@ -272,7 +272,7 @@ print(jethro)
 ```
 
 ***
-**Tip:** *Don't worry about trying to memorize all of the dunder methods out there because there are a lot! This is an area developers typically go to the docs to check for the dunder method they need. We will go more into the dunder methods in the intermediate OOP guide.*
+**Tip:** *Don't worry about trying to memorize all of the dunder methods out there because there are a lot! This is an area developers typically go to the docs to check for the dunder method they need.*
 ***
 
 #### Quiz Time #2
@@ -355,5 +355,41 @@ print(tom)
 ```
 
 ### Encapsulation
+#### What is Encapsulation?
+Encapsulation is one of the crucial OOP concepts in which access to object methods and variables can be restricted.
+The main goal is to avoid accidental changes. Furthermore, the methods can validate if the correct values are set 
+otherwise return an error. 
+
+#### Encapsulation with Python
+Despite the fact that Python does not have the `private` keyword like some other OOP languages,
+encapsulation can be achieved.  
+
+If you don't want to give direct access to a class variable, prefixing it with `__` will do the job. Here is an example:
+```python
+class Car(object):
+    def __init__(self):
+        self.make = 'Honda'
+        self._model = 'Accord Sport'
+        self.__vin = 'VINJH4TB2H26CC000000'
+
+c = Car()
+print(c.make)
+print(c._model)
+print(c.__vin)
+```
+Running the code above will return the following:
+```python
+Honda
+Accord Sport
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3296, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-3-4d5dc80bbe38>", line 4, in <module>
+    print(c.__vin)
+AttributeError: 'Car' object has no attribute '__vin'
+```
+__Note:__ Although the `__` returned an error it is still accessible; however, it is harder to access.
+Python has private variables by convention. 
+
 
 ### Polymorphism
