@@ -355,16 +355,17 @@ print(tom)
 ```
 
 ### Encapsulation
-#### What is Encapsulation?
+
 Encapsulation is one of the crucial OOP concepts in which access to object methods and variables can be restricted.
-The main goal is to avoid accidental changes. Furthermore, the methods can validate if the correct values are set 
-otherwise return an error. 
+The main goal is to avoid accidental changes. Furthermore, the methods can validate if the correct values are set otherwise return an error.
 
 #### Encapsulation with Python
+
 Despite the fact that Python does not have the `private` keyword like some other OOP languages,
 encapsulation can be achieved.  
 
 If you don't want to give direct access to a class variable, prefixing it with `__` will do the job. Here is an example:
+
 ```python
 class Car(object):
     def __init__(self):
@@ -377,7 +378,9 @@ print(c.make)
 print(c._model)
 print(c.__vin)
 ```
+
 Running the code above will return the following:
+
 ```python
 Honda
 Accord Sport
@@ -388,8 +391,23 @@ Traceback (most recent call last):
     print(c.__vin)
 AttributeError: 'Car' object has no attribute '__vin'
 ```
-__Note:__ Although the `__` returned an error it is still accessible; however, it is harder to access.
-Python has private variables by convention. 
 
+__Note:__ Although the `__` returned an error it is still accessible; however, it is harder to access.
+Python has private variables by convention.
 
 ### Polymorphism
+
+Polymorphism is when one function can be used in more than one way. For example:
+
+```python
+class Dog():
+    def speak:
+        print("Woof!")
+
+
+class Cat():
+    def speak:
+        print("Meow!")
+```
+
+The two classes above have the same function `speak()` but the output is different. Polymorphism allows us to use similar syntax to work with different elements.
