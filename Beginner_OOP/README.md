@@ -355,6 +355,17 @@ print(tom)
 > "Tom is 5 months old."
 ```
 
+#### Quiz Time #3
+
+Post your answers to this quiz as comments on [this issue](https://github.com/MissMeg/oop-practice/issues/15) and I will check them out! *If you need to play around with some code first, check out the [practice_2.py file](https://github.com/MissMeg/oop-practice/blob/master/practice_files/practice_3.py) for the code used here in the examples that you can run in your own IDE to practice and play around with.*
+
+1) What is a inheritance?
+2) Create a parent class.
+3) Create a sub class that inherits from the parent class.
+4) Use a method from the parent class on the child class to show they are connected.
+
+## Section 4
+
 ### Encapsulation
 
 Encapsulation is one of the crucial OOP concepts in which access to object methods and variables can be restricted.
@@ -393,8 +404,16 @@ Traceback (most recent call last):
 AttributeError: 'Car' object has no attribute '__vin'
 ```
 
-__Note:__ Although the `__` returned an error it is still accessible; however, it is harder to access.
-Python has private variables by convention.
+__Note:__ Although the `__` returned an error it is still accessible; however, it is harder to access. Python has private variables by convention.
+
+#### Quiz Time #4
+
+Post your answers to this quiz as comments on [this issue](https://github.com/MissMeg/oop-practice/issues/16) and I will check them out! *If you need to play around with some code first, check out the [practice_2.py file](https://github.com/MissMeg/oop-practice/blob/master/practice_files/practice_4.py) for the code used here in the examples that you can run in your own IDE to practice and play around with.*
+
+1) What is a encapsulation?
+2) Create a class with a public and private variables.
+
+## Section 5
 
 ### Polymorphism
 
@@ -402,13 +421,27 @@ Polymorphism is when one function can be used in more than one way. For example:
 
 ```python
 class Dog():
-    def speak:
+    def speak(self):
         print("Woof!")
 
 
 class Cat():
-    def speak:
+    def speak(self):
         print("Meow!")
+
+d = Dog()
+c = Cat()
+d.speak()
+> "Woof!"
+c.speak()
+> "Meow!"
 ```
 
 The two classes above have the same function `speak()` but the output is different. Polymorphism allows us to use similar syntax to work with different elements.
+
+#### Quiz Time #5
+
+Post your answers to this quiz as comments on [this issue](https://github.com/MissMeg/oop-practice/issues/17) and I will check them out! *If you need to play around with some code first, check out the [practice_2.py file](https://github.com/MissMeg/oop-practice/blob/master/practice_files/practice_5.py) for the code used here in the examples that you can run in your own IDE to practice and play around with.*
+
+1) What is a polymorphism?
+2) Create two classes that each have a method with the same name.
