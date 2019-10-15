@@ -311,6 +311,7 @@ class Dog:
 ***
 
 Inheritance can help a lot with code reuse, because the child classes can change specific methods and create new ones:
+
 ```python
 # parent class
 class Animal():
